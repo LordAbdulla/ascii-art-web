@@ -1,0 +1,188 @@
+body {
+  font-family: 'Courier New', monospace;
+  background-color: #121212;
+  margin: 1%;
+  padding: 1%;
+  text-align: center;
+}
+
+h1 {
+  color: #ffffff;
+  margin-top: 40px;
+  font-size: 2em;
+  letter-spacing: 6px;
+}
+
+p {
+  color: #646b76;
+  font-size: 1rem;
+}
+
+a {
+  color: #4a90e2;
+  display: inline-block;
+  margin-top: 12px;
+  padding: 10px 14px;
+  text-decoration: none;
+  border: 1px solid #4a90e2;
+  border-radius: 10px;
+}
+
+a:hover {
+  background: #4a90e2;
+  color: #fff;
+}
+
+img {
+  max-width: 420px;
+  width: 100%;
+  height: auto;
+  margin-top: 1%;
+}
+
+form {
+  background: #1e1e1e;
+  display: inline-block;
+  padding: 25px 40px;
+  border-radius: 10px;
+  margin-top: 25px;
+  text-align: center;
+  border: 1px solid #333;
+}
+
+label {
+  font-weight: bold;
+  color: #cccccc;
+}
+
+textarea {
+  width: 100%;
+  border: 1px solid #444;
+  border-radius: 6px;
+  padding: 10px;
+  font-family: 'Courier New', monospace;
+  font-size: 1em;
+  background-color: #181818;
+  color: #f0f0f0;
+  resize: none;
+}
+
+select {
+  border: 1px solid #444;
+  border-radius: 6px;
+  padding: 6px 10px;
+  font-size: 1em;
+  background-color: #181818;
+  color: #f0f0f0;
+}
+
+button {
+  background-color: #4a90e2;
+  color: #fff;
+  font-size: 1em;
+  padding: 10px 22px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  
+}
+
+button:hover {
+  background-color: #357ab7;
+  transform: scale(1.05);
+}
+
+h2 {
+  margin-top: 40px;
+  color: #f5f5f5;
+}
+
+pre {
+  background-color: #1a1a1a;
+  width: 70%;
+  margin: 10px auto 50px auto;
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 15px;
+  text-align: left;
+  font-size: 1em;
+  color: #00ff95;
+  overflow-x: auto;
+  
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+    padding: 10px;
+    
+  }
+
+  h1 {
+    font-size: 1.5em;
+    margin-top: 20px;
+  }
+
+  form {
+    padding: 20px;
+    width: 90%;
+    box-sizing: border-box;
+  }
+
+  textarea {
+    font-size: 0.9em;
+    padding: 1%;
+    
+  }
+
+  select {
+    font-size: 0.9em;
+    padding: 5px 8px;
+  }
+
+  button {
+    padding: 8px 18px;
+    font-size: 0.9em;
+  }
+
+  img {
+    max-width: 90%;
+    margin-top: 2%;
+  }
+
+  pre {
+    width: 95%;
+    font-size: 0.85em;
+    padding: 10px;
+  }
+
+  a{
+    padding: 8px 12px;
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.3em;
+  }
+
+  form {
+    padding: 15px;
+  }
+
+  textarea { 
+    padding: 1%;
+    font-size: 0.8em;
+  }
+
+  pre {
+    font-size: 0.75em;
+    padding: 8px;
+  }
+
+  button {
+    padding: 6px 14px;
+    font-size: 0.85em;
+  }
+}
