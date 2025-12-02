@@ -20,5 +20,5 @@ This project extends the original ASCII-Art program by adding a full web interfa
 ## 📥 Clone the Repository
 
 ```bash
-git clone https://github.com/<your-username>/ascii-art-web.git
-cd ascii-art-web
+git clone https://github.com/LordAbdulla/ascii-art-web
+go run cmd/server/main.go
