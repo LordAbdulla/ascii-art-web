@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8" />
+  <title>ASCII Art Web</title>
+  <link rel="stylesheet" href="/styles.css">
+<link rel="icon" href="/static/favicon.ico" sizes="any">
+</head>
+
+<body>
+  
+  <h1>ASCII Art Web</h1>
+
+  <form method="post" action="/ascii-art">
+    <label for="text">Input your text</label><br>
+    <textarea id="text" name="text" placeholder="Input your text" rows="4" cols="50" required></textarea>
+    <br><br>
+
+    <label>Banner:</label>
+    <select name="banner">
+      <option value="standard" selected>standard</option>
+      <option value="shadow">shadow</option>
+      <option value="thinkertoy">thinkertoy</option>
+    </select>
+    <br><br>
+
+    <button type="submit">Render</button>
+  </form>
+
+  <h2>Result</h2>
+  <pre style="min-height:30px; border:1px solid #000000; padding:10px; overflow-x: auto ">{{.Result}}</pre>
+</body>
+
+</html>
