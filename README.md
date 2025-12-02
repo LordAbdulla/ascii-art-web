@@ -1,12 +1,24 @@
+# ASCII-ART-WEB
+
+A simple Go web server that generates ASCII art from user input using different banner styles.  
+This project extends the original ASCII-Art program by adding a full web interface.
 
 ---
 
-If you want, I can also generate:
+## 🚀 Features
 
-✅ A better UI (HTML/CSS)  
-✅ A dark-mode theme  
-✅ A full set of unit tests  
-🤝 An auditor’s correction sheet  
-📘 A detailed project explanation for GitHub  
+- Web server with HTML interface  
+- Generates ASCII art from user text  
+- Supports multiple banners (`standard`, `shadow`, `thinkertoy`)  
+- Proper handling of special characters  
+- Clean and simple UI  
+- Error handling for invalid input  
+- Follows Go good practices  
 
-Just tell me!
+---
+
+## 📥 Clone the Repository
+
+```bash
+git clone https://github.com/<your-username>/ascii-art-web.git
+cd ascii-art-web
