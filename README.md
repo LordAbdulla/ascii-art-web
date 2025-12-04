@@ -5,7 +5,7 @@ This project extends the original ASCII-Art program by adding a full web interfa
 
 ---
 
-## 🚀 Features
+## Features
 
 - Web server with HTML interface  
 - Generates ASCII art from user text  
@@ -17,7 +17,7 @@ This project extends the original ASCII-Art program by adding a full web interfa
 
 ---
 
-## 📥 Clone the Repository
+## Clone the Repository
 
 ```bash
 git clone https://github.com/LordAbdulla/ascii-art-web
